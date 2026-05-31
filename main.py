@@ -1,5 +1,4 @@
-from task_manager import *
-
+from task_manager import show_tasks, add_task, delete_task
 while True:
 
     print("\nTODO APP")
