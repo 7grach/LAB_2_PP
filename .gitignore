@@ -1,3 +1,5 @@
 .idea
 tasks.txt
 __pycache__/
+.DS_Store
+commit.log
