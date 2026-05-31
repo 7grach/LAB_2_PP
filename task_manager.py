@@ -14,3 +14,10 @@ def add_task(task):
     tasks = load_tasks()
     tasks.append(task)
     save_tasks(tasks)
+
+def delete_task(index):
+    tasks = load_tasks()
+
+    if 0 < index <= len(tasks):
+        tasks.pop(index - 1)
+        save_tasks(tasks)
