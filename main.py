@@ -1,7 +1,8 @@
 from task_manager import *
 
-print("\nTODO APP")
 while True:
+
+    print("\nTODO APP")
     print("1 - Show tasks")
     print("2 - Add task")
     print("3 - Delete task")
