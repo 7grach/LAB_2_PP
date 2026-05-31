@@ -1,11 +1,11 @@
 from task_manager import *
 
+print("\nTODO APP")
 while True:
-    print("\nTODO APP")
     print("1 - Show tasks")
     print("2 - Add task")
     print("3 - Delete task")
-    print("4 - Exit")
+    print("4 - Exit app")
 
     choice = input("Choose: ")
 
@@ -18,7 +18,7 @@ while True:
 
     elif choice == "3":
         index = int(input("Task number: "))
-        #delete_task(index)
+        delete_task(index)
 
     elif choice == "4":
         break
